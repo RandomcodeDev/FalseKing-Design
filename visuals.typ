@@ -1,0 +1,2 @@
+= Visuals
+Due to limited resources and artistic talent on my part, the game will use low-poly models and simple textures. There will be a particle system, and the elemental powers will be given extra attention.

@@ -1,0 +1,2 @@
+= Input
+Keyboard/mouse and controllers will both be supported. Haptics for better immersion when using supported controllers should be possible as well. There will be inputs for attacking, jumping, dashing, changing elements, interacting, pausing, and accessing the different screens.
