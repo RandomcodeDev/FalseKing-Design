@@ -2,7 +2,7 @@
 This document outlines the design of the custom-made 3D game engine for False King and subsequent Randomcode Developers games.
 
 == Language
-The engine will be written in C++17, likely using a custom replacement for the STL and/or the C runtime.
+The engine will be written in C++03, likely using a custom replacement for the STL and/or the C runtime.
 
 == Platforms
 The engine will be modular and portable, meaning anything with a C++ toolchain and 3D graphics hardware should be a

@@ -9,6 +9,8 @@
 
 #include("intro.typ")
 #pagebreak()
+#include("components.typ")
+#pagebreak()
 #include("scene.typ")
 #pagebreak()
 #include("renderer.typ")
