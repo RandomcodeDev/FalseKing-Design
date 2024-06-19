@@ -15,6 +15,8 @@
 #pagebreak()
 #include("tools.typ")
 #pagebreak()
+#include("libraries.typ")
+#pagebreak()
 #include("visuals.typ")
 #pagebreak()
 #include("audio.typ")
