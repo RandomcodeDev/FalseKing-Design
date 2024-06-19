@@ -23,8 +23,6 @@
 #pagebreak()
 #include("ui.typ")
 #pagebreak()
-#include("data.typ")
-#pagebreak()
 #include("story.typ")
 #pagebreak()
 #include("timeline.typ")

@@ -3,8 +3,8 @@ This is a general timeline for getting to a demo of the game that can be sent to
 #table(
   columns: 5,
   [*Task/feature*], [*Type*], [*Status*], [*Notes*], [*Expected completion*],
-  [Basic rendering], [Engine programming/design], [Mostly done], [Still need to implement functions for drawing lines and geometry], [20/05/2024],
-  [raygui integration], [Engine programming], [Not started], [none], [30/05/2024],
+  [Basic rendering], [Engine programming/design], [Designed], [Still need to implement everything, [05/2024],
+  [GUI library integration], [Engine programming], [Not started], [none], [05/2024],
   [Physics engine], [Engine programming/design], [Not started], [Will be based on Game Physics Cookbook], [06/2024],
   [Basic player controls], [Game programming], [Not started], [none], [07/2024],
   [Entity storage], [Engine programming/design], [Not started], [Will likely use flecs's JSON serialization and components that reference resources with systems to load them], [08/2024],

@@ -7,27 +7,27 @@ The hardware interface is an abstraction of Vulkan/Direct3D/GNM/whatever other u
 level, and implements render targets, materials, and geometry primitives, as well as special render targets just for going
 to the screen (they wrap the swap chain images).
 #list(
-	[Handles VkInstance/IDXGIFactory, VkDevice/ID3D12Device, VkCommandBuffer/ID3D12GraphicsCommandList, VkSwapChainKHR/IDXGISwapChain]
-	[Creates and manages geometry (VB+IB), textures, render targets, shaders, materials (texture + shader)
-	[Handles drawing given geometry + material]
+	[Handles VkInstance/IDXGIFactory, VkDevice/ID3D12Device, VkCommandBuffer/ID3D12GraphicsCommandList, VkSwapChainKHR/IDXGISwapChain],
+	[Creates and manages geometry (VB+IB), textures, render targets, shaders, materials (texture + shader)],
+	[Handles drawing given geometry + material],
 )
 
 == Rendering pipeline
 Handles the process of taking data (model, position, etc of objects in scene, and general properties of the world) and
 using the hardware interface to render and post-process all of it.
 #list(
-	[Calls for drawing objects and adding lights]
-	[Uses multiple render passes to light and post-process the scene]
-	[Rasterization-based deferred lighting passes]
-	[Ray-tracing-based lighting passes]
-	[Common post-processing passes]
+	[Calls for drawing objects and adding lights],
+	[Uses multiple render passes to light and post-process the scene],
+	[Rasterization-based deferred lighting passes],
+	[Ray-tracing-based lighting passes],
+	[Common post-processing passes],
 )
 
 == Render system
 Calls into the rendering pipeline to draw scenes from different cameras, such as the player's eyes/over the shoulder, cinematic cameras,
 mirrors and other reflective surfaces, and literal cameras.
 #list(
-	[ECS system that iterates over objects in the scene]
-	[Sets parameters based on scene, such as sky details (even that could be an entity)]
+	[ECS system that iterates over objects in the scene],
+	[Sets parameters based on scene, such as sky details (even that could be an entity)],
 )
 
