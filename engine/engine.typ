@@ -1,7 +1,7 @@
 #set heading(numbering: "1.")
 #show link: underline
 
-#align(center, text(30pt)[*Красний (Krasnyy) Engine*])
+#align(center, text(30pt)[*Чифир (Chifir) Engine*])
 #align(center, text(20pt)[By Elliot McNeil])
 
 #outline()
